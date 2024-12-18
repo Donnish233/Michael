@@ -73,6 +73,9 @@ Below are some basic features that every smart contract should contain:
 
 (c) Internal functions : Only called by and inherited function.
 
-(d) External functions : which can be called by any other function other than the inherited ones.                                                                                                                                                                                        N/B: By default, any unspecified function is regarded as a private function by the server. Also, the "public" keyword automatically generates a "getter" function. For in-function variables, we use the "memory" keyword which specifies temporary data storage, very much like "let" keyword in JavaScript. 
+(d) External functions : which can be called by any other function other than the inherited ones.  
+
+N/B: By default, any unspecified function is regarded as a private function by the server. Also, the "public" keyword automatically generates a "getter" function. For in-function variables, we use the "memory" keyword which specifies temporary data storage, very much like "let" keyword in JavaScript.
+
 (9) Input validations: These ensures that inputs to be filled into the contract is correctly done. This is done using the "required" keyword, which will revert the contract if the input validation conditions are not met.
 
